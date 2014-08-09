@@ -2,7 +2,7 @@
 	"dep_locks": [
 		{
 			"url": "https://github.com/bitrise-io/steps-ipa-inspector.git",
-			"revision": "06f4ebb0523c1b3a16b1d47528e880d106f7c4e8"
+			"revision": "74538b46e1122fa03d0b23081499eeb1e3144e80"
 		}
 	]
 }
