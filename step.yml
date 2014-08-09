@@ -1,0 +1,20 @@
+name: Bitrise Deploy
+description: |
+  Deploys your IPA and DSym to Bitrise.
+
+
+inputs:
+  - title: |
+      Custom app id if you have an account on Bitfall's UP
+    mapped_to: BITRISE_DEPLOY_APP_ID
+  - title: |
+      Custom path if you have an account on Bitfall's UP
+    mapped_to: BITRISE_DEPLOY_PATH
+  - title: |
+      Release note
+    mapped_to: BITRISE_DEPLOY_NOTE
+
+outputs:
+  - title: |
+      Step's result: 'success' or 'failed'
+    mapped_to: BITRISE_DEPLOY_STATUS

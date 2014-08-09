@@ -75,5 +75,7 @@ else
   echo
 
   write_section_to_formatted_output "## Install URL"
-  write_section_to_formatted_output $install_url
+  write_section_to_formatted_output "[$install_url]($install_url)"
 fi
+
+echo "export BITRISE_DEPLOY_STATUS=\"success\"" >> ~/.bash_profile
