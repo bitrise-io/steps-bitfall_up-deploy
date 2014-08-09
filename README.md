@@ -5,7 +5,7 @@ Deploys your IPA and DSym to Bitrise.
 ## Dependencies
 
 This step uses the following steps
-* [steps-ipa-inspector]](https://github.com/bitrise-io/steps-ipa-inspector)
+* [steps-ipa-inspector](https://github.com/bitrise-io/steps-ipa-inspector)
 
 ## Input Environment Variables
 
