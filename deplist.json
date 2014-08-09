@@ -1,0 +1,8 @@
+{
+	"deps": [
+		{
+			"url": "https://github.com/bitrise-io/steps-ipa-inspector.git",
+			"store_path": "deps/steps-ipa-inspector"
+		}
+	]
+}
