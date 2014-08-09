@@ -50,6 +50,14 @@ response=$(curl http://up.bitfallinc.com/api/upload \
   -F "released=${IPA_CREATION_DATE}" \
   -F "expires_at=${IPA_EXPIRATION_DATE}")
 
+if [[ ! -f "$BITRISE_IPA_PATH" ]]; then
+  curl http://up.bitfallinc.com/api/upload \
+    --silent \
+    -F "app_id=${BITRISE_DEPLOY_APP_ID}" \
+    -F "path=${BITRISE_DEPLOY_PATH}" \
+    -F "file=@${BITRISE_DSYM_PATH}"
+fi
+
 status_code=$(echo "$response" | sed -n '$p')
 json=$(echo "$response" | sed '$d')
 
