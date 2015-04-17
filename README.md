@@ -1,5 +1,7 @@
 # Steps Bitrise Deploy
 
+*Work in progress!*
+
 Deploys your IPA and DSym to Bitrise.
 
 ## Dependencies
