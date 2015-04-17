@@ -1,6 +1,6 @@
 # Steps Bitrise Deploy
 
-*Work in progress!*
+**Work in progress!**
 
 Deploys your IPA and DSym to Bitrise.
 
